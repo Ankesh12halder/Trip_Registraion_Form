@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel form</title>
+    <link rel="stylesheet" href="style.css">          <!-- css file tag-->
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to IIT Kharagpur trip</h1>
+        <p>enter your details</p>
+
+        <form action="index.php" method="post">        <!--making form-->
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+            <button class="btn">Submit</button>        <!--submit button-->
+            <button class="btn">Reset</button>        <!--reset button-->
+                                                      <!--id basically uniquely identify an element-->
+    <!--we can use same class in different elements, we can use multiple class in an element
+        and we can also add same class in multiple element-->
+        </form>
+
+    </div>
+    <script src="index.js"></script>                    <!--js file tag-->
+</body>
+</html>
